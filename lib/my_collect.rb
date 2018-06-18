@@ -7,6 +7,6 @@ def my_collect(array)
 
  end
  array
- binding.pry
+ 
  end
-my_collect([1, 2, 3]) {|item| item + 1}
+my_collect([1, 2, 3]) {|item| binding.pry; item + 1}
