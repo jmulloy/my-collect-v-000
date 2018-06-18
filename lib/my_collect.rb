@@ -9,3 +9,4 @@ def my_collect(array)
  array
  binding.pry
  end
+my_collect([1, 2, 3])
