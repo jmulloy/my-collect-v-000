@@ -4,6 +4,6 @@ def my_collect(array)
    yield(array[i])
    i = i + 1
  end
- array.split(" ").first
+ 
  array
 end
